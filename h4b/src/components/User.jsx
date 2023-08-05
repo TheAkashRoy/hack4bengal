@@ -27,7 +27,7 @@ const User = () => {
       console.log(replacedSym3);
       console.log(replacedSym4);
       console.log(replacedSym5);
-      const url = `http://localhost:8080/predict/${replacedSym1}/${replacedSym2}/${replacedSym3}/${replacedSym4}/${replacedSym5}`;
+      const url = `https://selfassuredidlevendor.akashroy14.repl.co/predict/${replacedSym1}/${replacedSym2}/${replacedSym3}/${replacedSym4}/${replacedSym5}`;
 
       axios
         .get(url)
